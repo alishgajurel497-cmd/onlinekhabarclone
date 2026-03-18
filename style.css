@@ -23,3 +23,86 @@ body {
     height: 100%;
     object-fit: contain;
 }
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;   /* makes items horizontal */
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+nav {
+    background-color: #2260BF;
+    padding: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;   /* makes text visible on blue */
+    font-size: 18px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero-content h1{
+    text-align: center;
+    padding: 50px auto;
+}
+
+footer {
+    background-color: #E0E9F6;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+.hero-content img{
+    width:80vw;
+    height: auto;
+    text-align: center;
+    padding: 20px auto;
+}
+
+.hero img{
+    text-align: center;
+}
+
+.footer-container a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-container a:hover {
+    text-decoration: underline;
+
+}
+
+footer {
+    background-color: #E0E9F6;
+    color: rgb(156, 137, 218);   /* change this to any color you want */
+    text-align: center;
+    padding: 15px 0;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
